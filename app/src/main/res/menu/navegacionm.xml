@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:id="@+id/destino_uno"
+    android:icon="@drawable/ic_exposure_neg_1_black_24dp"
+    android:title="Primero"
+    />
+    <item
+        android:id="@+id/destino_dos"
+        android:icon="@drawable/ic_exposure_zero_black_24dp"
+        android:title="Segundo"
+        />
+
+    <item
+        android:id="@+id/destino_tres"
+        android:icon="@drawable/ic_exposure_neg_1_black_24dp"
+        android:title="Tercero"
+        />
+
+</menu>
