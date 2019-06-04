@@ -2,18 +2,18 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 <item
-    android:id="@+id/destino_uno"
+    android:id="@+id/destination_home"
     android:icon="@drawable/ic_exposure_neg_1_black_24dp"
     android:title="Primero"
     />
     <item
-        android:id="@+id/destino_dos"
+        android:id="@+id/destination_second"
         android:icon="@drawable/ic_exposure_zero_black_24dp"
         android:title="Segundo"
         />
 
     <item
-        android:id="@+id/destino_tres"
+        android:id="@+id/destination_fourth"
         android:icon="@drawable/ic_exposure_neg_1_black_24dp"
         android:title="Tercero"
         />

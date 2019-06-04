@@ -2,12 +2,25 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" android:layout_height="match_parent">
 
-
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center"
         android:textSize="75sp"
         android:textColor="@android:color/black"
+        android:layout_marginBottom="60dp"
         android:text="SECOND" />
+
+        <Button
+            android:id="@+id/go_third"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:text="GO THIRD"/>
+    </LinearLayout>
 </FrameLayout>

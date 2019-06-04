@@ -1,5 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/nav_graph">
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/nav_graph"
+    app:startDestination="@id/destination_fourth">
 
+    <fragment
+        android:id="@+id/destination_fourth"
+        android:name="com.javi.a00011417_taller5.Fragments.FourthFragment"
+        android:label="FourthFragment" />
+    <fragment
+        android:id="@+id/destination_home"
+        android:name="com.javi.a00011417_taller5.Fragments.HomeFragment"
+        android:label="HomeFragment" >
+        <action
+            android:id="@+id/next_action"
+            app:destination="@id/destination_second" />
+    </fragment>
+    <fragment
+        android:id="@+id/destination_second"
+        android:name="com.javi.a00011417_taller5.Fragments.SecondFragment"
+        android:label="SecondFragment" >
+        <action
+            android:id="@+id/next_action"
+            app:destination="@id/destination_third" />
+    </fragment>
+    <fragment
+        android:id="@+id/destination_settings"
+        android:name="com.javi.a00011417_taller5.Fragments.SettingsFragment"
+        android:label="SettingsFragment" />
+    <fragment
+        android:id="@+id/destination_third"
+        android:name="com.javi.a00011417_taller5.Fragments.ThirdFragment"
+        android:label="ThirdFragment" >
+        <action
+            android:id="@+id/next_action"
+            app:destination="@id/destination_fourth" />
+        <action
+            android:id="@+id/next_action2"
+            app:destination="@id/destination_home" />
+    </fragment>
 </navigation>
