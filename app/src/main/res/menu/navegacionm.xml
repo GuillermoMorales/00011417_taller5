@@ -3,19 +3,19 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 <item
     android:id="@+id/destination_home"
-    android:icon="@drawable/ic_exposure_neg_1_black_24dp"
+    android:icon="@drawable/ic_arrow_back_black_24dp"
     android:title="Primero"
     />
     <item
         android:id="@+id/destination_second"
-        android:icon="@drawable/ic_exposure_zero_black_24dp"
+        android:icon="@drawable/ic_arrow_drop_down_black_24dp"
         android:title="Segundo"
         />
 
     <item
         android:id="@+id/destination_fourth"
-        android:icon="@drawable/ic_exposure_neg_1_black_24dp"
-        android:title="Tercero"
+        android:icon="@drawable/ic_arrow_forward_black_24dp"
+        android:title="Cuarto"
         />
 
 </menu>
