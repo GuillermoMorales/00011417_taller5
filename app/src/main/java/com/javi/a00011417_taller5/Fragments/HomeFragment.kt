@@ -8,7 +8,7 @@ import androidx.fragment.app.Fragment
 import com.javi.a00011417_taller5.R
 import androidx.navigation.Navigation
 import kotlinx.android.synthetic.main.home_fragment.*
-import kotlinx.android.synthetic.main.third_fragment.*
+
 
 class HomeFragment: Fragment() {
 
@@ -21,8 +21,9 @@ class HomeFragment: Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        button_home.setOnClickListener({
-
+        go_second.setOnClickListener({
+            Navigation.findNavController(it).navigate(R.id.next_action)
         })
+
     }
 }

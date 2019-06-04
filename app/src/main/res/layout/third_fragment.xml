@@ -23,7 +23,7 @@
             android:layout_marginBottom="30dp"
             android:text="GO FOURTH" />
         <Button
-            android:id="@+id/button_home"
+            android:id="@+id/go_home"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|center_horizontal"
